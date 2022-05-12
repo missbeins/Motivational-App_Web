@@ -1,0 +1,94 @@
+body{
+    height: 100vh;
+
+}
+
+
+/*hotovational */
+
+.app-container{
+    position: relative;
+    width: 360px;
+    height: 640px;
+    background: linear-gradient(180deg, rgba(107, 254, 122, 0.33) 0%, rgba(254, 193, 122, 0.762708) 69.79%, rgba(253, 195, 126, 0.39) 100%);
+    box-shadow: 0px 0px 0px #89969F;
+}
+
+.Menu{
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    left: 22px;
+    top: 25px;
+    border: 0px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.Home{
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    left: calc(50% - 60px/2 - 122px);
+    top: 560px;
+    border: 0px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.Quote{
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    left: 106px;
+    top: 559px;
+    border: 0px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.Bookmark{
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    left: 192px;
+    top: 559px;
+    border: 0px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.Beach{
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    left: 275px;
+    top: 559px;
+    border: 0px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.Background{
+    position: absolute;
+    width: 294px;
+    height: 378px;
+    left: 32px;
+    top: 134px;
+}
+
+.text{
+    position: absolute;
+    width: 242px;
+    height: 230px;
+    left: 65px;
+    top: calc(50% - 230px/2 - 28px);
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+    color: #0F4606;
+
+}

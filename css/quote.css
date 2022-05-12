@@ -1,0 +1,295 @@
+body{
+    height: 100vh;
+
+}
+
+
+/*quote */
+
+.app-container{
+    position: relative;
+    width: 360px;
+    height: 640px;
+    background: linear-gradient(180deg, rgba(107, 254, 122, 0.33) 0%, rgba(254, 193, 122, 0.762708) 69.79%, rgba(253, 195, 126, 0.39) 100%);
+    box-shadow: 0px 0px 0px #89969F;
+}
+
+.Menu{
+    box-sizing: border-box;
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    left: 22px;
+    top: 25px;
+    border: 0px solid #000000;
+    border-radius: 10px;
+}
+
+.relief{
+    position: absolute;
+    width: 90px;
+    height: 100px;
+    left: 132px;
+    top: calc(50% - 100px/2 - 258px);
+}
+
+
+.Quote{
+    box-sizing: border-box;
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    left: 280px;
+    top: 25px;
+    border: 0px solid #000000;
+
+}
+
+.Rectangle{
+    position: absolute;
+    width: 102px;
+    height: 98px;
+    left: 10px;
+    top: 144px;
+    background: #F4D4D4;
+    border-radius: 5px;
+}
+
+.Rectangle1{
+    position: absolute;
+    width: 102px;
+    height: 98px;
+    left: 126px;
+    top: 144px;
+    background: #C2F1F1;
+    border-radius: 5px;
+}
+
+.Rectangle2{
+    position: absolute;
+    width: 102px;
+    height: 98px;
+    left: 242px;
+    top: 144px;
+    background: #FCFF7C;
+    border-radius: 5px;
+}
+
+.Rectangle3{
+    position: absolute;
+    width: 102px;
+    height: 98px;
+    left: 10px;
+    top: 273px;
+    background: #B1CCDE;
+    border-radius: 5px;
+}
+
+.Rectangle4{
+    position: absolute;
+    width: 102px;
+    height: 98px;
+    left: 126px;
+    top: 273px;
+    background: #C5F69C;
+    border-radius: 5px;
+}
+
+.Rectangle5{
+    position: absolute;
+    width: 102px;
+    height: 98px;
+    left: 242px;
+    top: 273px;
+    background: #CBEDBF;
+    border-radius: 5px;
+}
+
+.Rectangle6{
+    position: absolute;
+    width: 102px;
+    height: 98px;
+    left: 10px;
+    top: 402px;
+    background: #FFD483;
+    border-radius: 5px;
+}
+
+.Rectangle7{
+    position: absolute;
+    width: 102px;
+    height: 98px;
+    left: 126px;
+    top: 402px;
+    background: #F3C368;
+    border-radius: 5px;
+}
+
+.Rectangle8{
+    position: absolute;
+    width: 102px;
+    height: 98px;
+    left: 242px;
+    top: 402px;
+    background: #FBA1A1;
+    border-radius: 5px;
+}
+
+.Group{
+    position: absolute;
+    width: 295px;
+    height: 51px;
+    left: 30px;
+    top: 560px;
+
+}
+
+.Text{
+    position: absolute;
+    width: 117px;
+    height: 16px;
+    left: 3px;
+    top: 185px;
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #000000
+}
+
+.Text1{
+    position: absolute;
+    width: 117px;
+    height: 16px;
+    left: 118px;
+    top: 185px;
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #000000;
+}
+
+.Text2{
+    position: absolute;
+    width: 117px;
+    height: 16px;
+    left: 234px;
+    top: 185px;
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #000000;
+}
+
+.Text3{
+    position: absolute;
+    width: 117px;
+    height: 16px;
+    left: 2px;
+    top: 314px;
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #000000;
+}
+
+.Text4{
+    
+    position: absolute;
+    width: 117px;
+    height: 16px;
+    left: 118px;
+    top: 314px;
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #000000;
+}
+
+.Text5{
+    position: absolute;
+    width: 117px;
+    height: 16px;
+    left: 234px;
+    top: 314px;
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #000000;
+}
+
+.Text6{
+    position: absolute;
+    width: 117px;
+    height: 16px;
+    left: 2px;
+    top: 441px;
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #000000;
+}
+
+.Text7{
+    position: absolute;
+    width: 117px;
+    height: 16px;
+    left: 117px;
+    top: 441px;
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #000000;
+}
+
+.Text8{
+    position: absolute;
+    width: 117px;
+    height: 16px;
+    left: 234px;
+    top: 441px;
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #000000;
+}
+
+.Text9{
+    box-sizing: border-box;
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    left: 295px;
+    top: 90px;
+    border: 0px solid #000000;
+    color: #000000;
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-size: 12px;
+}

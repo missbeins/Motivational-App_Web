@@ -1,0 +1,127 @@
+body{
+    height: 100vh;
+
+}
+
+
+/*happy */
+
+.app-container{
+    position: relative;
+    width: 360px;
+    height: 640px;
+    background: linear-gradient(180deg, rgba(107, 254, 122, 0.33) 0%, rgba(254, 193, 122, 0.762708) 69.79%, rgba(253, 195, 126, 0.39) 100%);
+    box-shadow: 0px 0px 0px #89969F;
+}
+
+.Menu{
+    box-sizing: border-box;
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    left: 22px;
+    top: 25px;
+    border: 0px solid #000000;
+    border-radius: 10px;
+}
+
+.relief{
+    position: absolute;
+    width: 90px;
+    height: 100px;
+    left: 132px;
+    top: calc(50% - 100px/2 - 258px);
+}
+
+
+.Bookmark{
+    box-sizing: border-box;
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    left: 279px;
+    top: 29px;
+    background: url(.png);
+    border: 0px solid #000000;
+    border-radius: 10px;
+}
+
+.Group1{
+    position: absolute;
+    width: 305px;
+    height: 48px;
+    left: 30px;
+    top: 141px;    
+}
+
+.Group2{
+    position: absolute;
+    width: 293px;
+    height: 48px;
+    left: 37px;
+    top: 224px;
+}
+
+.Group3{
+    position: absolute;
+    width: 293px;
+    height: 48px;
+    left: 37px;
+    top: 289px;
+}
+
+.Group4{
+    position: absolute;
+    width: 293px;
+    height: 48px;
+    left: 37px;
+    top: 357px;
+}
+
+.Group5{
+    position: absolute;
+    width: 293px;
+    height: 48px;
+    left: 37px;
+    top: 421px;
+}
+
+.Group6{
+position: absolute;
+width: 293px;
+height: 48px;
+left: 37px;
+top: 489px;
+}
+
+.Rectangle{
+    position: absolute;
+    width: 295px;
+    height: 60px;
+    left: 30px;
+    top: 560px;
+    background: #ECF9EC;
+    border-radius: 20px;
+}
+
+.Back{
+    box-sizing: border-box;
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    left: 50px;
+    top: 565px;
+    border: 0px solid #000000;
+    border-radius: 10px;
+}
+
+.image1{
+    position: absolute;
+    width: 42px;
+    height: 44px;
+    left: 268px;
+    top: 568px;
+    background: url(image.png);
+    mix-blend-mode: multiply;
+    opacity: 0.8
+}
